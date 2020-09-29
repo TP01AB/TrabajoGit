@@ -13,3 +13,24 @@ header h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+nav ul {
+    padding: 4.5%;
+    float: left;
+    border-top: brown;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom: brown;
+    border-width: 3px;
+    border-style: dotted;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 20%;
+}
+
+article{
+    display: clear;
+    margin-left: 10%;
+    text-align: center;
+}
