@@ -38,3 +38,13 @@ nav ul li{
     margin-left: 10%;
     margin-right: 10%;
 }
+
+
+
+footer > p{
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
