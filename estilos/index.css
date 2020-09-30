@@ -32,7 +32,7 @@ nav ul li{
 }
 
 article{
-    display: clear;
+    float: left;
     margin-left: 10%;
     text-align: center;
 }
@@ -42,4 +42,12 @@ article{
     height: 50%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+footer > p{
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+    color: white;
 }
