@@ -31,17 +31,24 @@ nav ul li{
     padding: 20%;
 }
 
-article{
-    float: left;
-    margin-left: 10%;
-    text-align: center;
-}
-
 #cabecera_index{
     width: 80%;
     height: 50%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+form{
+    float: left;
+    background-color: white;
+    padding: 10%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+form label, form input{
+    background-color: white;
+    margin: 3%;
 }
 
 footer > p{
