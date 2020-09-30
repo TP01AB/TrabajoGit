@@ -40,11 +40,5 @@ function cargarCookie() {
         console.log("Nombre de la cookie: " + nom_cookie + "; valor de la cookie: " + valor_cookie);
 
 }
-function cargarMensaje(){
-    document.write("Tu ultima consulta era esta: <br> "+document.getElementById("texto").value);
 }
 
-
-
-
-}
