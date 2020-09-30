@@ -38,5 +38,6 @@ function cargarCookie() {
         valor_cookie = temp[1];
         
         console.log("Nombre de la cookie: " + nom_cookie + "; valor de la cookie: " + valor_cookie);
-        
+
+}
 }
