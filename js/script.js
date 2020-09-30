@@ -43,12 +43,8 @@ function cargarCookie() {
 function cargarMensaje(){
     document.write("Tu ultima consulta era esta: <br> "+document.getElementById("texto").value);
 }
-function cargarIndex(){
-if(document.getElementById("nombre").value!=null){
-    document.write("Hola,"+document.getElementById("nombre").value+".");
-    document.write("mail: "+document.getElementById("email").value+"");
-    document.write("Tu ultima consulta era esta: <br> "+document.getElementById("texto").value);
-}
 
-}
+
+
+
 }
