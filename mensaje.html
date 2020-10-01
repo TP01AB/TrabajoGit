@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="estilos/mensaje.css">
+</head>
+<script>
+function cargarMensaje(){
+    if(localStorage.getItem("texto")!=null){
+        var mensaje="<br> Tu ultima consulta era esta: <br> "+localStorage.getItem("texto");
+        document.getElementById('mensaje').innerHTML=mensaje;
+        
+    }
+    }
+
+</script>
+<body onload=cargarMensaje()>
+    <header>   
+        <img id="cabecera_index" src="./img/Cabecera_index.jpeg" alt="Git">
+        <H1>Presentacion Belen e Israel</H1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./mensaje.html">Mensaje</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <p id="mensaje" name="mensaje"></p>
+    </section>
+    <footer><p> Belén Trujillo Navarro & Israel Molina Pulpón</p></footer>
+</body>
+</html>

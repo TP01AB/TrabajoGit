@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilos/index.css">
+</head>
+<script >
+    function cargarIndex(){
+    if(localStorage.getItem("nombre")!=null){
+        var mensaje="Hola,"+localStorage.getItem("nombre") +". <br> mail: "+localStorage.getItem("email")+"<br> Tu ultima consulta era esta: <br> "+localStorage.getItem("texto");
+        document.getElementById('reload').innerHTML=mensaje;
+        
+    }
+    }
+</script>
+<body onload=cargarIndex() >
+    <header>   
+        <img id="cabecera_index" src="./img/Cabecera_index.jpeg" alt="Git">
+        <H1>Presentacion Belen e Israel</H1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./mensaje.html">Mensaje</a></li>
+    
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <div id="reload"></div>
+        <p> Hola , esta es nuestra pagina de inicio. Esta web ha sido realizada en la asignatura de despliegue de aplicaciones web de 2ºDAW </p>   </article>
+<footer><p> Belén Trujillo Navarro & Israel Molina Pulpón</p></footer>
+</body>
+</html>
