@@ -1,13 +1,13 @@
-#Documentacion Ejercicio Git Israel y Belén
+# Documentacion Ejercicio Git Israel y Belén
 
 <p> Esta es la pagina de documentacion del ejercicio realizado por Belen Navarro e Israel Molina de la clase 2º DAW para la asignatura de implementacion impartida por Jose Luis Gonzalez . Dicho proyecto engloba los conocimientos adquiridos hasta la fecha 29/09/2020  en todos los modulos.
 </p>
 
-Para el proyecto hemos usado la filosofia de trabajo Git Flow con la cual las siguientes ramas:
--Docs:la cual contiene toda la documentacion del proyecto.
--Release: Para las versiones definitivas.
--Master: Versiones estables las cuales pasaran los test y seran parte de Release
--Dev:En esta rama vamos a desarrollar todas las funcionalidades con otras subramas func_X
+Para el proyecto hemos usado la filosofia de trabajo Git Flow con la cual las siguientes ramas:<br>
+-Docs:la cual contiene toda la documentacion del proyecto.<br>
+-Release: Para las versiones definitivas.<br>
+-Master: Versiones estables las cuales pasaran los test y seran parte de Release<br>
+-Dev:En esta rama vamos a desarrollar todas las funcionalidades con otras subramas func_X<br>
     -Func_index
         -indexMaquetacion
         -index_HTML
