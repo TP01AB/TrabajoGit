@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+## Bienvenido a la documentacion 
 
-You can use the [editor on GitHub](https://github.com/TP01AB/TrabajoGit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Esta es la pagina de documentacion del ejercicio realizado por Belen Navarro e Israel Molina de la clase
+2º DAW para la asignatura de implementacion impartida por Jose Luis Gonzalez . Dicho proyecto engloba los conocimientos
+adquiridos hasta la fecha 29/09/2020  en todos los modulos.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Reparto de trabajo
 
-### Markdown
+En este trabajo iniciamos la reparticion separando en dos partes el trabajo HTML y CSS, 
+Israel llevaba a cabo el HTML y Belen Maquetaba con el CSS.Creando una rama de la rama padre func_X creamos una HTML y otra CSS.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+Llegada la parte de javascrip fue un trabajo conjunto , primero trabajamos uno y realizabamos commit & push para que el otro fuese visualizando el codigo.
+Llegado al punto donde el otro compañero localizaba algun fallo realizaba cambios en el mismo documento y avisando via mensajeria de su correcion y resolviamos los conflictos al unir cambios.
+
+Por ultimo belen se encargo de todo HTML y CSS de mensaje  y yo creaba las funciones para sacar informacion de Local Strorage.
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Comandos y trabajo con GIT 
+Principalmente la organizacion de este trabajo se ha basado en ramas de trabajo independiente con ficheros distintos para cada miembro del equipo.
+teniendo claro que a la hora de realizar los merge nos posicionabamos en la rama padre de trabajo.
 
-- Bulleted
-- List
+Llegado el punto de trabajo en un mismo fichero lo realizabamos uno trabajando en el JavaScript mientras el otro auditaba los cambios localizando fallos.
 
-1. Numbered
-2. List
+En resumen la parte mas utilizada de GIT ha sido con los comandos en este orden
+    
+    - Git checkout dev
+    - git branch func_X
+    - git checkout func_X
+    - git branch X_trabajo1
+    - git branch X_trabajo2
+    
+al finalizar las tareas y tener nuestros commit y push.
 
-**Bold** and _Italic_ and `Code` text
+    - git checkout func_X
+    - git merge X_trabajo1
+    - git merge X_trabajo2
+    - git checkout dev
+    - git merge func_X
+
 
 [Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TP01AB/TrabajoGit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![image](./img/captura.jpg)
