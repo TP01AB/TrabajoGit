@@ -15,8 +15,6 @@ Llegado al punto donde el otro compañero localizaba algun fallo realizaba cambi
 
 Por ultimo belen se encargo de todo HTML y CSS de mensaje  y yo creaba las funciones para sacar informacion de Local Strorage.
 
-```markdown
-Syntax highlighted code block
 
 ## Comandos y trabajo con GIT 
 Principalmente la organizacion de este trabajo se ha basado en ramas de trabajo independiente con ficheros distintos para cada miembro del equipo.
@@ -41,5 +39,5 @@ al finalizar las tareas y tener nuestros commit y push.
     - git merge func_X
 
 
-[Link](url) and ![Image](src)
-![image](./img/captura.jpg)
+<img src="./img/captura.jpg" alt="Inicio del arbol">
+
